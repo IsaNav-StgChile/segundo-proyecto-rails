@@ -12,12 +12,12 @@
 
   <body>
 <ul>
-  <li><a href=" <%= pages_index_path %>">Index</a></li>
+  <li><a href="<%= pages_index_path %>">Index</a></li>
  <li><%= link_to'About', pages_about_path %></li>
+ <li><a href="<%= pages_about_path %>">Index</a></li>
  <li><%= link_to'Products', pages_products_path %></li>
 
-  <p> Modificando el layout antes</p>
     <%= yield %>
-    <p> Modificando el layout despues</p>
+ 
   </body>
 </html>
